@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ 🤖 Techxy – AI Chatbot Interface
 
-## Getting Started
+**Techxy** is a modern, interactive **AI-powered chatbot interface** built with a sleek UI and smooth animations. It enables real-time conversations with **Google Gemini AI**, supports **PDF document uploads**, and delivers an engaging chat experience with typing indicators, message animations, and responsive design.
 
-First, run the development server:
+This project showcases strong skills in **frontend engineering, AI API integration, UI/UX design, and performance-focused React development**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* 💬 Real-time chat with **Gemini AI**
+* 📄 **PDF upload & analysis** (context-aware conversations)
+* ⌨️ Typing indicators & animated message flow
+* 🎙️ Microphone toggle UI (voice-ready interface)
+* 🎨 Smooth animations using GSAP
+* 🌙 Modern dark-themed, responsive design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+* ⚛️ **React (Next.js – Client Components)**
+* 🟦 **TypeScript**
+* 🎨 **Tailwind CSS**
+* 🧩 **shadcn/ui**
+* 🎬 **GSAP** (animations)
+* 🤖 **Google Gemini AI API**
+* 📄 **PDF.js** (PDF text extraction)
+* 🎯 **Lucide Icons**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 How It Works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. User sends a message or uploads a PDF
+2. PDF content is extracted using **PDF.js**
+3. User input + document context is sent to **Gemini AI**
+4. AI response is streamed back into the chat UI
+5. Messages animate smoothly for an enhanced UX
 
-## Deploy on Vercel
+---
+## 🔐 Note
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* API keys are used for development/testing.
+* For production, keys should be secured using **environment variables**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Future Enhancements
+
+* 🎙️ Voice input & output
+* 🧠 Chat history persistence
+* 🗂️ Multi-document support
+* 🌐 Backend proxy for API security
+* 📱 Mobile-first optimizations
+
+---
+
+## 👩‍💻 Author
+
+**Vedika Datta**
+🔗 GitHub: [https://github.com/vedikdatta](https://github.com/vedikdatta)
+
+---
+
+⭐ *Techxy reflects a strong blend of AI integration, UI finesse, and modern frontend architecture — built for real-world applications.*
+
+
